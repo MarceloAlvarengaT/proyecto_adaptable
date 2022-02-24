@@ -5,8 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio de sesión</title>
+    <link rel="stylesheet" href="css/main.css"/>   
 </head>
-<body>
+<body>   
+    <a href="index.html">
+        <img src="imgs/back_arrow.png" alt=""width="50" height="50">
+    </a>
     <form action="">
         <label for="usuario">
             Usuario:
@@ -18,18 +22,19 @@
             <input type="password" id="Contraseña" placeholder="Ingrese la Contraseña" name="Contraseña">
         </label>
         <br>
-        <input type="button" value="Iniciar sesión">
+        <a href="pagina_principal.html">
+            <input type="button" value="Iniciar sesión">
+        </a>
         <br>
-        <label for="comentario">
-            Ingresa un comentario: <br>
-            <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
-        </label>
-
+        <h2>¿No tienes una cuenta?</h2>
+        <a href="crear_cuenta.html">
+            <input type="button" value="Crear cuenta">
+        </a>
+        <br>
+        <h2>Recupera tu contraseña</h2>
+        <a href="recuperar_contraseña.html">
+            <input type="button" value="¿Olvidaste tu contraseña?">
+        </a>
     </form>
-
-
-    <a href="index.html">
-        <img src="imgs/home-icon.png" alt="">
-    </a>
 </body>
 </html>
