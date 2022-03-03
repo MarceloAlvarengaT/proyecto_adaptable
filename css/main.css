@@ -12,9 +12,31 @@ body{
 }
 
 .menu{
-  position: fixed;
+  display: flex;
+  align-items: center;
   width: 360px;
   background-color: blanchedalmond;
   height: 50px;
   bottom: 0px;
 }
+
+.index{
+  display:flex;
+  justify-content: center;
+  align-content: center;
+  width: 360px;
+  height: 600px;
+  background: rgb(107,179,159);
+  background: linear-gradient(0deg, rgba(107,179,159,1) 0%, rgba(224,236,222,1) 100%);
+}
+
+#mapa{
+  transform: scale(0.5);
+
+}
+
+.mapa1{
+  display: flex;
+  align-content: flex-start;
+}
+
