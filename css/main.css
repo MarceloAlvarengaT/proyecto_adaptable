@@ -10,7 +10,7 @@ body{
   margin-right: auto;
   background-color: chartreuse;
 }
-
+/*
 .menu{
   display: flex;
   align-items: center;
@@ -19,7 +19,7 @@ body{
   height: 50px;
   bottom: 0px;
 }
-
+*/
 .index{
   display:flex;
   justify-content: center;
@@ -38,5 +38,41 @@ body{
 .mapa1{
   display: flex;
   align-content: flex-start;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(207, 223, 206);
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
+
+.nav_links{
+  list-style: none;
+}
+
+.nav_links li{
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav_links li a{
+  transition: all 0.3s ease 0s;
+}
+
+button{
+  padding: 9px 25px;
+  background-color: red;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
 }
 

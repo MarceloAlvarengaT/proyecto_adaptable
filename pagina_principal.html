@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina principal</title>
     <link rel="stylesheet" href="css/main.css"/>   
+    <style>
+        #contenido_mapa{
+            background-color: yellow;
+        }
+    </style>
 </head>
 <body>
     <h1>A donde quieres ir hoy?</h1>
@@ -13,7 +18,7 @@
 
         <img src="imgs/mapa.png" usemap="#image-map" id="mapa">
         
-        <map name="image-map">
+        <map id="contenido_mapa" name="image-map">
             <area target="" alt="caribe" title="caribe" href="region_caribe.html" coords="188,343,214,314,230,304,234,249,271,222,303,230,309,210,353,212,413,174,442,149,468,167,451,185,424,191,409,220,397,222,372,270,348,328,340,358,352,397,334,402,324,379,317,387,322,406,300,445,291,406,269,373,230,402,213,422,189,422,183,399,204,358,192,353" shape="poly">
             <area target="" alt="andina" title="andina" href="region_andina.html" coords="156,358,183,342,189,356,195,364,178,397,186,425,211,427,232,405,265,382,288,409,297,448,305,445,324,422,328,403,357,400,346,358,352,327,379,330,402,384,395,419,421,445,403,475,404,518,374,535,362,588,303,603,263,664,201,741,176,714,214,688,203,656,227,598,194,536,211,520,191,487,172,488,157,458,180,443,176,425,150,402,159,386,167,373" shape="poly">
             <area target="" alt="pacifica" title="pacifica" href="region_pacifica.html" coords="104,432,138,395,132,363,154,379,145,400,174,436,150,458,167,490,188,491,204,517,187,535,220,599,198,657,209,684,169,715,191,743,199,768,178,767,166,747,147,761,147,804,132,806,47,736,68,692,108,677,149,616,128,601,139,508,125,458" shape="poly">
@@ -21,6 +26,22 @@
             <area target="" alt="amazonia" title="amazonia" href="region_amazonia.html" coords="155,804,152,765,168,758,177,773,206,773,202,747,268,673,283,735,342,743,340,703,413,674,495,681,561,631,656,611,677,642,655,671,685,696,701,759,666,709,620,729,540,724,537,769,572,767,573,786,530,799,534,836,563,889,535,1050,498,1027,530,967,477,940,374,958,304,873,221,813,185,809" shape="poly">
             <area target="" alt="islas" title="islas" href="region_caribe.html" coords="75,163,56,196,56,249,65,254,149,204,152,175,114,165" shape="poly">
         </map>
+    </div>
+
+    <div class="menu">
+
+        <header>
+            <nav>
+                <ul class="nav_links">
+                    <li><a href="#"><img src="imgs/feed_icon2.png" class="item" alt=""></a></li>
+                    <li><a href="#"><img src="imgs/search_icon2.png" class="item"  alt=""></a></li>
+                    <li><a href="#"><img src="imgs/home_icon2.png" class="item home"  alt=""></a></li>
+                    <li><a href="#"><img src="imgs/write_icon2.png" class="item" alt=""></a></li>
+                    <li><a href="#"><img src="imgs/profile_icon2.png" class="item" alt=""></a></li>
+                </ul>
+            </nav>
+        </header>
+
     </div>
 </body>
 </html>
