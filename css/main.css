@@ -44,21 +44,32 @@ body{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: rgb(207, 223, 206);
+  
 }
 
 header{
+  background: rgb(207, 223, 206);
+  transform: scale(0.8);
+  
+  color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 10%;
+  padding: 30px 1%;
+  height: 10px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
 }
+
 
 .nav_links{
   list-style: none;
+ 
 }
 
 .nav_links li{
+
   display: inline-block;
   padding: 0px 20px;
 }
@@ -74,5 +85,17 @@ button{
   border-radius: 50px;
   cursor: pointer;
   transition: all 0.3s ease 0s;
+  
+  width: 5px;
+  height: 5px;
 }
 
+.item{
+  position: relative;
+  bottom: 15px;
+}
+
+.item_home{
+  position: relative;
+  bottom: 0px;
+}
