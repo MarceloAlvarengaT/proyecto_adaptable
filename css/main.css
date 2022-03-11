@@ -1,101 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
 body{
-  color: rgb(0, 0, 0);
-  /*background-color: #18FF13;*/
-}
-
-.seccion{
-  width: 360px;
-  height: 600px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: chartreuse;
-}
-/*
-.menu{
-  display: flex;
-  align-items: center;
-  width: 360px;
-  background-color: blanchedalmond;
-  height: 50px;
-  bottom: 0px;
-}
-*/
-.index{
-  display:flex;
-  justify-content: center;
-  align-content: center;
-  width: 360px;
-  height: 600px;
-  background: rgb(107,179,159);
-  background: linear-gradient(0deg, rgba(107,179,159,1) 0%, rgba(224,236,222,1) 100%);
-}
-
-#mapa{
-  transform: scale(0.5);
-
-}
-
-.mapa1{
-  display: flex;
-  align-content: flex-start;
-}
-
-*{
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  
-}
-
-header{
-  background: rgb(207, 223, 206);
-  transform: scale(0.8);
-  
-  color: white;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 30px 1%;
-  height: 10px;
-  position: fixed;
-  left: 0;
-  bottom: 0;
+    background: #fff;
+    font-family: Poppins;
 }
 
 
-.nav_links{
-  list-style: none;
- 
+#app_name{
+    background-color: rgb(164, 236, 209);
+    font-size: 36px;
+    font-weight: 600;
+
 }
 
-.nav_links li{
-
-  display: inline-block;
-  padding: 0px 20px;
+#app_name span{
+    
+    font-weight: 400;
 }
 
-.nav_links li a{
-  transition: all 0.3s ease 0s;
+
+#title{
+   
+    height: 50px;
+    
 }
 
-button{
-  padding: 9px 25px;
-  background-color: red;
-  border: none;
-  border-radius: 50px;
-  cursor: pointer;
-  transition: all 0.3s ease 0s;
-  
-  width: 5px;
-  height: 5px;
+#cont{
+    height: 600px;
+    background-color: blueviolet;
 }
 
-.item{
-  position: relative;
-  bottom: 15px;
+.objeto{
+
+    position: absolute;
+
 }
 
-.item_home{
-  position: relative;
-  bottom: 0px;
+#caribe{
+    
+    top: 15%;
+    left: 40%;
 }
+
+#andina{
+    top: 22%;
+    left: 42.2%;
+}
+
+#pacifica{
+    top: 23.5%;
+    left: 39.5%;
+}
+
+#orinoco{
+    top: 26.7%;
+    left: 45.2%;
+}
+
+#amazonia{
+    top: 33.4%;
+    left: 42.1%;
+}
+
+#nav_bar{
+    background-color: rgb(191, 213, 190);
+    min-width: 400px;
+}
+
