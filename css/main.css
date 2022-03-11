@@ -3,15 +3,6 @@
 body{
     background: #fff;
     font-family: Poppins;
-<<<<<<< Updated upstream
-}
-
-
-#app_name{
-    background-color: rgb(164, 236, 209);
-    font-size: 36px;
-    font-weight: 600;
-=======
 }
 
 
@@ -129,7 +120,6 @@ body{
     z-index: 1;
 }
 
->>>>>>> Stashed changes
 
 
 .contenedor_menu{
@@ -145,60 +135,6 @@ body{
     align-items: center;
 }
 
-<<<<<<< Updated upstream
-#app_name span{
-    
-    font-weight: 400;
-}
-
-
-#title{
-   
-    height: 50px;
-    
-}
-
-#cont{
-    height: 600px;
-    background-color: blueviolet;
-}
-
-.objeto{
-
-    position: absolute;
-
-}
-
-#caribe{
-    
-    top: 15%;
-    left: 40%;
-}
-
-#andina{
-    top: 22%;
-    left: 42.2%;
-}
-
-#pacifica{
-    top: 23.5%;
-    left: 39.5%;
-}
-
-#orinoco{
-    top: 26.7%;
-    left: 45.2%;
-}
-
-#amazonia{
-    top: 33.4%;
-    left: 42.1%;
-}
-
-#nav_bar{
-    background-color: rgb(191, 213, 190);
-    min-width: 400px;
-=======
 
 .contenedor_menu a{
     display: inline-block;
@@ -345,6 +281,4 @@ figcaption {
     width: 80%;
     min-width: 170px;
     max-width: 190px;
->>>>>>> Stashed changes
 }
-
