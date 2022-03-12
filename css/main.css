@@ -208,7 +208,7 @@ body{
 .galeria{
     position: relative;
     top: 140px;
-    max-height: 170px;
+    max-height: 180px;
     display: flex;
     overflow-x: auto;
     margin-left: 15px;
@@ -221,7 +221,7 @@ body{
 
 .galeria .foto{
     min-width: 200px;
-    height: 150px;
+    height: 170px;
     line-height: 20px;
     text-align: center;
     margin-right: 2px;
